@@ -1,12 +1,12 @@
-# common-sso-core
+# common-sso-sdk
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/zhengjin-me/common-sso-core/Gradle%20Package?style=flat-square)
-[![Maven Central](https://img.shields.io/maven-central/v/me.zhengjin/common-sso-core.svg?style=flat-square&color=brightgreen)](https://maven-badges.herokuapp.com/maven-central/me.zhengjin/common-sso-core/)
-![GitHub](https://img.shields.io/github/license/zhengjin-me/common-sso-core?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/zhengjin-me/common-sso-sdk/Gradle%20Package?style=flat-square)
+[![Maven Central](https://img.shields.io/maven-central/v/me.zhengjin/common-sso-sdk.svg?style=flat-square&color=brightgreen)](https://maven-badges.herokuapp.com/maven-central/me.zhengjin/common-sso-sdk/)
+![GitHub](https://img.shields.io/github/license/zhengjin-me/common-sso-sdk?style=flat-square)
 
 ```
 dependencies {
-    implementation "me.zhengjin:common-sso-core:version"
+    implementation "me.zhengjin:common-sso-sdk:version"
 }
 ```
 
