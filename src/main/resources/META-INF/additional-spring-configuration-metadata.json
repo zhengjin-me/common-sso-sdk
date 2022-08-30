@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "sourceType": "me.zhengjin.common.sso.autoconfig.SSOProperties",
+      "name": "customize.sso",
+      "type": "me.zhengjin.common.sso.autoconfig.SSOProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "customize.sso.model",
+      "type": "me.zhengjin.common.sso.autoconfig.SSOModel",
+      "sourceType": "me.zhengjin.common.sso.autoconfig.SSOProperties",
+      "defaultValue": "center"
+    },
+    {
+      "name": "customize.sso.url",
+      "type": "java.lang.String",
+      "sourceType": "me.zhengjin.common.sso.autoconfig.SSOProperties"
+    },
+    {
+      "name": "customize.sso.clients",
+      "type": "java.util.ArrayList<me.zhengjin.common.sso.autoconfig.SSOClient>",
+      "sourceType": "me.zhengjin.common.sso.autoconfig.SSOProperties"
+    }
+  ]
+}
