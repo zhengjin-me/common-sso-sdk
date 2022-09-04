@@ -38,6 +38,7 @@ val commonDictVersion: String by project
 val saTokenVersion: String by project
 val hutoolVersion: String by project
 val forestVersion: String by project
+val bouncyCastleVersion: String by project
 
 group = "me.zhengjin"
 // 使用最新的tag名称作为版本号
@@ -82,6 +83,7 @@ dependencies {
     api("cn.dev33:sa-token-dao-redis-jackson:$saTokenVersion")
     api("cn.hutool:hutool-crypto:$hutoolVersion")
     api("com.dtflys.forest:forest-spring-boot-starter:$forestVersion")
+    api("org.bouncycastle:bcprov-jdk18on:$bouncyCastleVersion")
     api(kotlin("reflect"))
     api(kotlin("stdlib-jdk8"))
     testCompileOnly("org.springframework.boot:spring-boot-starter-test") {
