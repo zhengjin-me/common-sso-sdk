@@ -7,13 +7,10 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnClass
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 
-@Suppress("SpringJavaInjectionPointsAutowiringInspection")
 @ConditionalOnExpression("'center'.equalsIgnoreCase('\${customize.sso.model:center}')")
-@AutoConfigureAfter(me.zhengjin.common.sso.autoconfig.SSOPropertiesConfiguration::class)
+@AutoConfigureAfter(SSOPropertiesConfiguration::class)
 @ConditionalOnClass(SSOInnerApiClient::class)
-@Configuration
 class SSOAutoConfiguration(
     private val ssoApiClient: SSOInnerApiClient
 ) {
